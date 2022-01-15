@@ -11,7 +11,7 @@
     "sass-loader": "^10.1.1"
   },
   "peerDependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.50",
+    "@docusaurus/core": "2.0.0-alpha.54",
     "sass": "^1.30.0"
   },
   "scripts": {
