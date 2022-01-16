@@ -1,6 +1,6 @@
 {
   "name": "@vsmori/docusaurus-plugin-sass",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Docusaurus plugin to provide support for SASS/SCSS",
   "main": "docusaurus-plugin-sass.js",
   "publishConfig": {
@@ -19,6 +19,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/vsmori/docusaurus-plugin-sass.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm --no-git-tag-version version patch && git add ."
+    }
   },
   "homepage": "https://github.com/rlamana/docusaurus-plugin-sass",
   "keywords": [
